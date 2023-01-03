@@ -6,11 +6,41 @@ import requests
 bit = platform.architecture()[0]
 
 if bit == '64bit':
-
-    print("NOT UPLOADED YET BE PATIENT.... ")
+    from USMI64 import fia
+    fia()
 
 elif bit == '32bit':
 
     from USMI import fia
 
     fia()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
